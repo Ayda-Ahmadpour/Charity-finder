@@ -1,0 +1,46 @@
+/* ProductList.css */
+.search-bar, .cause-list  {
+    margin-bottom: 20px;
+    width: 300px;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%,0);
+    outline: 1px solid black;
+    border: none;
+    outline: none;
+    border-radius:8px ;
+    overflow: hidden;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+  
+  .search-bar input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  .cause-list {
+top: 26%;
+cursor: pointer;
+border-top-right-radius:0 ;
+border-top-left-radius:0 ;
+  }
+  
+  .cause-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    background-color: #f0f0f0;
+    transition: .2s;
+  
+
+  }
+  .cause-item:hover{
+    background-color: aqua;
+    color: white;
+    width: 350px;
+  }
+  
+  
