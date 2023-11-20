@@ -39,7 +39,7 @@ border-top-left-radius:0 ;
   }
   .cause-item:hover{
     background-color: aqua;
-    color: white;
+    color: red;
     width: 350px;
   }
   
